@@ -1,0 +1,83 @@
+/* Write your CSS here */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cash-withdraw-container {
+  background-color: #150b3e;
+  border-radius: 8px;
+  padding: 20px 15px 10px 15px;
+  width: 30%;
+}
+
+.user-details {
+  display: flex;
+}
+
+.user-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+}
+
+.profile-name {
+  color: #7c3aed;
+  font-family: Roboto;
+}
+
+.name {
+  color: #d4d2db;
+  font-family: Roboto;
+  margin-left: 5px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.your-balance {
+  color: #585076;
+  font-family: Roboto;
+  font-size: 24px;
+}
+
+.balance {
+  display: flex;
+  flex-direction: column;
+}
+
+.check-balance {
+  color: #d4d2db;
+  font-family: Roboto;
+}
+
+.in-rupees {
+  color: #585076;
+  font-family: Roboto;
+  font-size: 24px;
+}
+
+.withdraw {
+  color: #c4c4c4;
+  font-family: Roboto;
+}
+
+.choose-sum {
+  color: #585076;
+  font-family: Roboto;
+}
+
+.denomination-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
